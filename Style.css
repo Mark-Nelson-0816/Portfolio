@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    max-height: 1000px;
+    max-width: 900px;
+}
+.left{
+    background-color: #28343c;
+    height: 1000px;
+    width: 35%;
+    color: #f0f4f4;
+}
+.right{
+    height: 1000px;
+    max-width: 900px;
+    width: 65%;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 585px;
+    max-width: 585px;
+    height: 999px;
+    max-height: 999px;
+}
+.top{
+    background-color: #808c8c;
+    width: 100%;
+    height: 25%;
+    color: white;
+}
+.bottom{
+    background-color: #f0f4f4;
+    width: 100%;
+    height: 75%;
+}
+.profile_Img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+.image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 50%;
+}
+.left_Info{
+    padding: 23px 0px 20px 45px;
+}
+.left_Title_Tag{
+    font-size: 30px;
+    border-bottom: 3px solid #f0f4f4;
+}
+.design_1{
+    border: 10px solid #f0f4f4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.design_2{
+    border: 10px solid #f0f4f4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 40px;
+}
+.design_3{
+    border: 10px solid #f0f4f4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 80px;
+}
+.contact_Info, .socials_Info{
+    padding-top: 15px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.icon{
+    font-size: 30px;
+    color: #f2f0f4;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.ig{
+    padding-right: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f0f0f4;
+}
+a:link{
+    color: #f0f0f4;
+}
+a:visited{
+    color: #f0f4f4;
+}
+a:active{
+    color: #f0f4f4;
+}
+ul{
+    padding-left: 20px;
+}
+li{
+    padding-bottom: 5px;
+}
+.top_Info{
+    padding: 70px 20px 30px 40px;
+}
+.name{
+    font-size: 25px;
+}
+.educ-Course{ 
+    padding: 10px 10px;
+    font-size: 30px;
+}
+.bot_Space{
+    padding: 35px 40px 30px 40px;
+}
+.title_Shade{
+    background-color: #28343c;
+    color: #f0f4f4;
+    padding: 5px;
+    border-radius: 4px;
+}
+.right_Title_Tag{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.right_Info{
+    padding-left: 7px;
+    font-size: 18px;
+}
