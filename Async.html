@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Async</title>
+</head>
+<body>
+    <h1>Fetch API</h1>
+    <h2>Asynch Function</h2>
+
+    <pre id="songLyric">Press the button to show the song lyric.</pre>
+
+    <script>
+        getText("song.txt");
+
+        async function getText(file){
+            let response = await fetch(file);
+            let data = await response.text();
+            document.querySelector("#songLyric").innerHTML = data;
+        }
+    </script>
+</body>
+</html>
