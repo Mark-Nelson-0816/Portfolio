@@ -1,169 +1,241 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 body{
     min-height: 100vh;
+    background-color: #F4F4F4;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-    padding: 40px;
+    font-family: "Times New Roman", Times, serif;
 }
 .container{
     display: flex;
-    flex-direction: row;
-    max-height: 1300px;
-    max-width: 900px;
-}
-.left{
-    background-color: #28343c;
-    height: 1300px;
-    width: 35%;
-    color: #f0f4f4;
-}
-.right{
-    height: 1300px;
-    max-width: 900px;
-    width: 65%;
-}
-.inner{
-    display: flex;
     flex-direction: column;
-    position: relative;
-    min-width: 685px;
-    max-width: 685px;
-    height: 1299px;
-    max-height: 1299px;
+    min-width: 2110px;
+    width: 2110px;
+    max-width: 2110px;
+    min-height: 2000px;
+    height: 2000px;
+    max-height: 2000px;
 }
-.top{
-    background-color: #808c8c;
+.navigation{
+    background-color: #F4F4F4;
     width: 100%;
-    height: 20%;
-    color: white;
+    height: 1.5%;
 }
-.bottom{
-    background-color: #f0f4f4;
-    width: 100%;
-    height: 80%;
-}
-.profile_Img{
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    justify-content: center;
-}
-.image{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    align-items: center;
-    border-radius: 50%;
-}
-.left_Info{
-    padding: 30px 0px 20px 45px;
-    height: 80%;
-}
-.left_Title_Tag{
-    font-size: 30px;
-    border-bottom: 3px solid #f0f4f4;
-}
-.design{
-    position: sticky;
-    bottom: -350px;
-}
-.design_1, .design_2, .design_3, .design_4, .design_5{
-    border: 10px solid #f0f4f4;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-.design_2{
-    margin-left: 40px;
-}
-.design_3{
-    margin-left: 80px;
-}
-.design_4{
-    margin-left: 120px;
-}
-.design_5{
-    margin-left: 160px;
-}
-.contact_Info, .socials_Info{
-    padding-top: 15px;
-    padding-right: 10px;
-    font-size: 18px;
-}
-.icon{
-    font-size: 30px;
-    color: #f2f0f4;
-    padding-right: 10px;
-    padding-bottom: 15px;
-}
-.ig{
-    padding-right: 15px;
+.inner_Nav{
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 8px;
 }
 a{
     text-decoration: none;
 }
 a:hover{
-    color: #f0f0f4;
+    color: black;
 }
 a:link{
-    color: #f0f0f4;
+    color: black;
 }
 a:visited{
-    color: #f0f4f4;
+    color: black;
 }
 a:active{
-    color: #f0f4f4;
+    color: black;
 }
-ul{
-    padding-left: 20px;
+.header{
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    position: sticky;
+    top: 0px;
 }
-li{
-    padding-bottom: 5px;
+.inner_Header{
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.top_Info{
-    padding: 70px 20px 30px 40px;
-}
-.name{
-    font-size: 25px;
-}
-.educ-Course{ 
-    padding: 10px 10px;
-    font-size: 30px;
-}
-.bot_Space{
-    padding: 35px 40px 30px 40px;
-}
-.title_Shade{
-    background-color: #28343c;
-    color: #f0f4f4;
-    padding: 5px;
-    border-radius: 4px;
-}
-.right_Title_Tag{
-    font-size: 25px;
-    padding-left: 10px;
-}
-.right_Info{
-    padding-left: 7px;
-    font-size: 18px;
-}
-.skills{
+.header_Content{
+    width: 100%;
+    height: 60%;
+    margin-top: 18px;
     display: flex;
     flex-direction: row;
-    min-width: 250px;
 }
-.soft_Skills{
-    min-width: 50%;
-    max-width: 50%;
-    margin-right: 5px;
+.logo{
+    width: 20%;
+    height: 100%;
 }
-.hard_Skills{
-    min-width: 50%;
-    max-width: 50%;
+.logo_Pic{
+    height: 45px;
+    width: 155px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.search{
+    width: 52%;
+    height: 100%;
+}
+form{
+    height: 55px;
+    width: 655px;
+    display: flex;
+}
+#srch_Bar{
+    flex: 1;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    background: #EFF0F5;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+#srch_Btn{
+    margin-left: -4px;
+    background: #F57224;
+    font-size: 23px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+.cart{
+    width: 8%;
+    height: 100%;
+    position: relative;
+}
+.cart_Pic{
+    height: 100%;
+    width: 70px;
+    margin-left: 13px;
+    position: absolute;
+    bottom: 0px;
+}
+.offer{
+    width: 20%;
+    height: 100%;
+}
+.offer_Pic{
+    height: 55px;
+    width: 240px;
     margin-left: 5px;
+}
+.body{
+    background-color: white;
+    width: 60%;
+    height: 93.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flash_Sale{
+    width: 100%;
+    height: 20%;
+    padding: 25px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.declare{
+    font-size: 35px;
+    width: 100%;
+    height: 50px;
+    color: gray;
+}
+.prod_Lists_Sale{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.prod_Lists_Jfy{
+    width: 100%;
+    height: 1420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+    color: #9E9E9E;
+}
+.product{
+    height: 275px;
+    width: 300px;
+    max-width: 300px;
+    max-height: 275px;
+    padding: 5px;
+}
+.prod_Img_Space{
+    width: 100%;
+    height: 179px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prod_Name_Space{
+    width: 287px;
+    max-width: 287px;
+    height: 41px;
+    max-height: 41px;
+    padding: 1px 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+        line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.prod_Price_Space{
+    padding: 0px 4px;
+    font-size: 21px;
+    color: #F57224;
+    width: 100%;
+    height: 27.5px;
+}
+.price_Div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 27.5px;
+    padding-top: -15px;
+}
+.prod_Orig_Price_Space{
+    width: fit-content;
+    height: 100%;
+    padding-left: 4px;
+    padding-right: 15px;
+    text-decoration: line-through;
+    color: #9E9E9E;
+    font-size: 13px;
+}
+.prod_Discount_Space{
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+}
+.prod_Img{
+    width: 70%;
+    height: 90%;
+    margin: auto;
+}
+.just_For_You{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    flex-direction: row;
 }
